@@ -1,0 +1,31 @@
+To check the IP Address from Windows command prompt: 
+ipconfig
+NAT Adapter:(root@kali)
+ifconfig
+Step-1: Create a directory and create a txt file with some message inside it.
+Step-2: The apt update command updates the local repository with package metadata (info about the
+latest versions available) and prints the list of upgradeable packages. Always execute the update
+command before upgrades or installations to ensure to get the latest version.
+Step-3: The command `apt install openssh-server` installs the OpenSSH server on a Linux system. This
+enables the system to accept secure remote connections via SSH “Secure Shell”, commonly used for
+remote administration and secure command-line access.
+Step-4: ufw status command (Check the status of the UFW firewall.). It will display that ufw command
+doesn’t exist in your system so select yes or y to proceed and it will install the packages.
+Step-5: ufw enable command (Enable the UFW Firewall)
+Step-6: ufw allow command (Allow port/service through the UFW firewall)
+Step-7: ufw status command (To check the added ports are being displayed)
+Step-7: The command `service ssh start is used to start the SSH (Secure Shell) server on a Linux
+system. It initiates the SSH server, allowing it to listen for incoming secure remote connections,
+typically used for remote administration, file transfer, and secure command-line access to the system
+Step-8: The command `service ssh status ‘provides a summary of the status of the SSH (Secure Shell)
+server on a Linux system. It displays information about whether the SSH server is running, stopped, or
+encountering any issues, helping you to check the server's operational status
+Step-9: Open PuTTY Application (Putty is a free, open-source application for Windows that enables
+secure remote access to other computers or devices over various network protocols, such as SSH, Telnet,
+and serial connections. It's a versatile terminal emulator often used for tasks like managing servers and
+networking equipment from a Windows computer.) Add the IP address and the port number, select SSH
+as connection type and click ‘Open’.
+Step-10: Login as kali and the password is kali (the password is being masked/hidden).
+Step-11: sudo -l command (The -l (list) option will print out the commands allowed (and forbidden) the
+user on the current host.)
+Step-12: Now, you can access the files from the virtual machine on PuTTy. 
